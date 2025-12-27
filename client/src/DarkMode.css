@@ -1,0 +1,110 @@
+.dark-mode {
+  --bg-primary: #0d1117;
+  --bg-secondary: #161b22;
+  --bg-tertiary: #21262d;
+  --text-primary: #c9d1d9;
+  --text-secondary: #8b949e;
+  --border-color: #30363d;
+  --hover-bg: #21262d;
+  --message-bg: #21262d;
+  --message-own-bg: #1f6feb;
+  --input-bg: #0d1117;
+  --modal-bg: #161b22;
+}
+
+.light-mode {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f6f8fa;
+  --bg-tertiary: #ffffff;
+  --text-primary: #24292f;
+  --text-secondary: #57606a;
+  --border-color: #d0d7de;
+  --hover-bg: #f6f8fa;
+  --message-bg: #f6f8fa;
+  --message-own-bg: #0969da;
+  --input-bg: #ffffff;
+  --modal-bg: #ffffff;
+}
+
+.enhanced-chat-app {
+  background: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+}
+
+.chat-sidebar {
+  background: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+}
+
+.chat-main {
+  background: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+}
+
+.chat-header {
+  background: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+}
+
+.messages-container {
+  background: var(--bg-primary) !important;
+}
+
+.message {
+  background: var(--message-bg) !important;
+  color: var(--text-primary) !important;
+}
+
+.message.own-message {
+  background: var(--message-own-bg) !important;
+  color: #ffffff !important;
+}
+
+.message-content {
+  color: inherit !important;
+}
+
+.room-item, .user-item {
+  color: var(--text-primary) !important;
+}
+
+.room-item:hover, .user-item:hover {
+  background: var(--hover-bg) !important;
+}
+
+input, textarea, select {
+  background: var(--input-bg) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--text-secondary) !important;
+}
+
+.user-info, .rooms-section, .users-section {
+  background: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+}
+
+.user-info h3, .rooms-section h4, .users-section h4 {
+  color: var(--text-primary) !important;
+}
+
+.timestamp, .edited-indicator {
+  color: var(--text-secondary) !important;
+}
+
+.message-input-container {
+  background: var(--bg-secondary) !important;
+  border-top: 1px solid var(--border-color) !important;
+}
+
+.input-row {
+  background: var(--bg-secondary) !important;
+}
+
+.input-row input {
+  background: var(--input-bg) !important;
+  color: var(--text-primary) !important;
+}

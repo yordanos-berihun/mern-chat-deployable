@@ -1,0 +1,42 @@
+.read-receipts {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.read-icon {
+  color: #4299e1;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.read-tooltip {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  background: #2d3748;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  white-space: nowrap;
+  margin-bottom: 5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+.read-receipts:hover .read-tooltip {
+  display: block;
+}
+
+.read-user {
+  padding: 2px 0;
+}
+
+.read-user:not(:last-child) {
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+}
