@@ -1,6 +1,6 @@
-const User = require('./User');
-const Room = require('./Room');
-const Message = require('./Message');
+const User = require('./user');
+const Room = require('./room');
+const Message = require('./message');
 
 module.exports = {
   User,
